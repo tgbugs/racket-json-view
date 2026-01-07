@@ -110,6 +110,5 @@
     (define/public (select-path path)
       (define node (hash-ref node-cache path))
       (send this select node))
-    
-    (super-new [style '(no-hscroll auto-vscroll)])))
 
+    (super-new)))
